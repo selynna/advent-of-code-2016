@@ -10,13 +10,6 @@ southBlocks = 0
 directionIndex = 0
 
 grid = []
-row = []
-col = []
-
-for a in range(0, 300):
-    for b in range(0, 300):
-        col.append(0)
-    row.append(col)
 
 startingRowPosition = 0
 startingColumnPosition = 0
@@ -30,10 +23,6 @@ for i in directionList:
         directionIndex -= 1
         if directionIndex == -1:
             directionIndex = 3
-    j = 0
-    k = 0
-    l = 0
-    m = 0
 
     if directionIndex == 0:
         northBlocks += (int)(i[1:])
