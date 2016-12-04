@@ -1,5 +1,3 @@
-# import file
-
 fileInput = open("day1-input.txt").read()
 directionList = fileInput.split(", ")
 
